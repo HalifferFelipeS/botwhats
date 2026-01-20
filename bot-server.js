@@ -10,7 +10,7 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 const API_TOKEN = process.env.WHAPI_TOKEN;
-const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || 'seu_secret_aqui';
+const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || 'vBdc22pkrVBRNrsMHEdn43Zq3McmrcZ4';
 
 // Arquivo de dados local (JSON)
 const DATA_FILE = path.join(__dirname, 'data.json');
