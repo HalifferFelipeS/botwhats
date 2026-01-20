@@ -1,0 +1,18 @@
+{
+  "name": "bot-diario-gastos-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot inteligente para WhatsApp que registra gastos pessoais",
+  "main": "bot-server.js",
+  "scripts": {
+    "start": "node bot-server.js",
+    "dev": "nodemon bot-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
